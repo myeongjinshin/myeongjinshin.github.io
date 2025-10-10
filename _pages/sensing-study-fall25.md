@@ -2,34 +2,31 @@
 layout: page
 permalink: /sensing-study-fall25/
 title: Reading Group (Quantum Computational Sensing, Fall 2025)
-description: Materials for courses you taught. Replace this text with your description.
+repo_theme_light: default
 ---
 
 #### Course Details
-This reading group is dedicated to exploring both foundational and recent research in quantum complexity theory. Over the course of 10 weeks, we will study key papers and results covering topics such as quantum computational complexity, Hamiltonian complexity, and quantum circuit complexity. The sessions will combine short theoretical lectures with student-led presentations and discussions of selected papers.
+This reading group is dedicated to exploring both foundational and recent research in quantum computational sensing. Over the course of 10 weeks, we will study key papers and results covering topics such as quantum trajectory sensing, quantum computing enhanced sensing, quantum sensing of stochastic parameters. The sessions will combine short theoretical lectures with student-led presentations and discussions of selected papers.
 
-**Prerequisites:** Participants are expected to have a solid background in theoretical computer science and quantum information. Familiarity with computational complexity theory (e.g., P, NP, BQP, QMA) and basic quantum computing concepts (quantum states, unitaries, and measurements) will be assumed. Prior exposure to quantum algorithms or quantum complexity theory is helpful but not strictly required; motivated students with strong mathematical preparation are welcome.
+**Prerequisites:** Participants are expected to have a solid background in theoretical computer science and quantum information.
 
 #### Instructor
-- [Junseo Lee](https://harris-junseo-lee.github.io/) (`harris.junseo(at)gmail.com`)
+- [Myeongjin Shin](https://myeongjinshin.github.io/) (`hanwoolmj2(at)gmail.com`)
 
 #### Course Policies
 - The reading group will be conducted primarily via Zoom. In-person sessions may be organized when necessary.
-- All participants are required to attend every session, regardless of whether it is their presentation day. To ensure active discussion, cameras must remain on during class.
+- All participants are required to attend every session, regardless of whether it is their presentation day. If case of absence, you must notify the instructor in advance.
 - Each student is expected to give at least one paper review presentation during the course.
 
 #### Announcements
-- (Sep 25) The paper list has been released. Students will select their presentation topics on a first-come, first-served basis.
-
+- (Oct 11) The paper list and presenter has been announced. 
 
 #### Lectures
-
-<!— All lectures are scheduled for <span style="color:#2e86c1;">Saturdays at 3 PM</span>, except <span style="color:#c0392b;">Lecture 2</span>, which will be held on Sunday. —>
 
 <table style="border-collapse: collapse; width: 100%; border: 1px solid #ccc;">
   <thead style="background-color: #2e86c1; color: white;">
     <tr>
-      <th style="padding: 10px; border: 1px solid #ccc;">Week</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">Date</th>
       <th style="padding: 10px; border: 1px solid #ccc;">Topic</th>
       <th style="padding: 10px; border: 1px solid #ccc;">Speaker</th>
       <th style="padding: 10px; border: 1px solid #ccc;">Readings</th>
@@ -37,104 +34,71 @@ This reading group is dedicated to exploring both foundational and recent resear
   </thead>
   <tbody>
     <tr style="background-color: #f9f9f9;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Foundational Concepts</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Junseo Lee</span></td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">10/3</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Introduction</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Myeongjin Shin</span></td>
       <td style="border: 1px solid #ccc;">
         <ul>
-          <li><a href="https://arxiv.org/abs/0804.3401">[Wat'08] Quantum Computational Complexity</a></li>
+          <li><a href="https://arxiv.org/pdf/1611.02427">[DRC'17] Quantum Sensing</a></li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">2</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Complexity Theory for NISQ Devices</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">TBD </span></td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">10/16</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Quantum entanglement and trajectory sensing</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Seongheum Yoo </span></td>
       <td style="border: 1px solid #ccc;">
         <ul>
-          <li><a href="https://arxiv.org/abs/2210.07234">[CCHL'22] The Complexity of NISQ</a></li>
+          <li><a href="https://arxiv.org/pdf/2405.05888">[CLC'24] Quantum entanglement enables single-shot trajectory sensing for weakly interacting particles</a></li>
         </ul>
       </td>
     </tr>
     <tr style="background-color: #f9f9f9;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">3</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Complexity Theory, Unitary Designs, and Randomness</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">InHee Yun </span></td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">10/23</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">The quantum trajectory sensing problem and its solution</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Kwanwoo Kim </span></td>
       <td style="border: 1px solid #ccc;">
         <ul>
-          <li><a href="https://arxiv.org/abs/1912.04297">[BCHKP'19] Models of quantum complexity growth</a></li>
+          <li><a href="https://arxiv.org/pdf/2410.00893">[CC'24] The quantum trajectory sensing problem and its solution</a></li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">4</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Understanding BQP</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>TBD</td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">10/30</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Quantum Computing Enhanced Sensing</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>Hyeongu Kang</td>
       <td style="border: 1px solid #ccc;">
         <ul>
-          <li><a href="https://arxiv.org/abs/2111.10409">[AIK'24] The Acrobatics of BQP</a></li>
+          <li><a href="https://arxiv.org/pdf/2501.07625">[AMC'25] Quantum Computing Enhanced Sensing</a></li>
         </ul>
       </td>
     </tr>
     <tr style="background-color: #f9f9f9; color:black;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">5</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Quantum State Property Testing and Complexity</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>TBD</td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">11/16</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Exponential advantage in quantum sensing of correlated parameters</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>Jungmo Lee</td>
       <td style="border: 1px solid #ccc;">
         <ul>
-          <li><a href="https://arxiv.org/abs/2410.13559">[LW'25] On estimating the trace of quantum state powers</a></li>
+          <li><a href="https://arxiv.org/pdf/2504.21745">[PKK'25] Exponential advantage in quantum sensing of correlated parameters</a></li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">6</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Quantum Interactive Proof Systems (I)</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>TBD</td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">11/13</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Various quantum computational sensing</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>Minseok Park</td>
       <td style="border: 1px solid #ccc;">
         <ul>
-          <li><a href="https://arxiv.org/abs/1904.05870">[NW'19] NEEXP ⊆ MIP*</a></li>
-        </ul>
-      </td>
-    </tr>
-    <tr style="background-color: #f9f9f9; color:black;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">7</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Quantum Interactive Proof Systems (II)</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>TBD</td>
-      <td style="border: 1px solid #ccc;">
-        <ul>
-          <li><a href="https://arxiv.org/abs/2001.04383">[JNVWY'22] MIP* = RE</a></li>
+          <li><a href="https://arxiv.org/pdf/2507.15845">[KPW'25] Quantum computational sensing using quantum signal processing, quantum neural networks, and Hamiltonian engineering</a></li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">8</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">NLTS Hamiltonians</span></td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">TBD</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">TBD</span></td>
       <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>TBD</td>
       <td style="border: 1px solid #ccc;">
-        <ul>
-          <li><a href="https://arxiv.org/abs/2206.13228">[ABN'22] NLTS Hamiltonians from good quantum codes</a></li>
-          <li><a href="https://arxiv.org/abs/2311.09503">[GK'23] NLTS Hamiltonians and Strongly-Explicit SoS Lower Bounds from Low-Rate Quantum LDPC Codes</a></li>
-        </ul>
-      </td>
-    </tr>
-    <tr style="background-color: #f9f9f9; color:black;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">9</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Quantum PCPs</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>TBD</td>
-      <td style="border: 1px solid #ccc;">
-        <ul>
-          <li><a href="https://arxiv.org/abs/2403.04841">[BHW'25] Quantum PCPs: on Adaptivity, Multiple Provers and Reductions to Local Hamiltonians</a></li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">10</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Hamiltonian Complexity and Fault Tolerance</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>TBD</td>
-      <td style="border: 1px solid #ccc;">
-        <ul>
-          <li><a href="https://arxiv.org/abs/2309.16475">[ABN'24] Circuit-to-Hamiltonian from tensor networks and fault tolerance</a></li>
-        </ul>
+        TBD
       </td>
     </tr>
   </tbody>
