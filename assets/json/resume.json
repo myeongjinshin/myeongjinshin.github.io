@@ -54,6 +54,24 @@
       "publisher": "Physical Review A",
       "releaseDate": "2024-12-12",
       "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.062418"
+    },
+    {
+      "name": "Resource-efficient algorithm for estimating the trace of quantum state powers",
+      "publisher": "Quantum",
+      "releaseDate": "2025-08-27",
+      "url": "https://quantum-journal.org/papers/q-2025-08-27-1832/"
+    },
+    {
+      "name": "Near optimal quantum algorithm for estimating Shannon entropy",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-09-09",
+      "url": "https://arxiv.org/pdf/2509.07452"
+    },
+    {
+      "name": "Optimal certification of constant-local Hamiltonians",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2025-12-10",
+      "url": "https://arxiv.org/pdf/2512.09778"
     }
   ],
   "languages": [
@@ -64,19 +82,19 @@
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Fluent (TOEFL iBT 108)",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Quantum Computing",
+      "name": "Quantum Information Theory",
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Singular Value Transformation",
         "Quantum Property Testing and Estimation",
         "Quantum Algorithms",
-        "Quantum Machine Learning",
+        "Quantum Hamiltonian Learning",
         "Quantum Error Correction"
       ]
     }

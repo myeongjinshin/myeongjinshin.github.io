@@ -24,9 +24,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an undergraduate in School of Computing from KAIST. I am currently fulfilling my mandatory national service at Republic of Korea Air Force. My main interest lies on researching quantum computing and founding a startup. I have been continuously conducting research with the Quantum Information Theory Group at the Research Institute of Mathematics, Seoul National University. For more details, you can find my [CV](https://myeongjinshin.github.io/assets/pdf/cv_shin.pdf) here.
+I'm an undergraduate student in the School of Computing at KAIST. My main interests lie in quantum computing research and founding a startup.
 
-Contact: I love discussing new research or startup ideas and beyond, so feel free to reach out to me at hanwoolmj2(at)gmail.com for collaborations, questions, or just to connect. I’m always happy to hear from you!
+I have been continuously conducting research with the Quantum Information Theory Group at the Research Institute of Mathematics, Seoul National University, and more recently with the Quantum Information Theory Group in the Department of Physics at KAIST.
+
+I am currently preparing for PhD applications with the goal of applying in the 2027 cycle, while actively developing my research experience in quantum information theory. For more details, please refer to my [CV](https://myeongjinshin.github.io/assets/pdf/cv_shin.pdf).
+
+Contact: I love discussing new research ideas and beyond, so feel free to reach out to me at hanwoolmj2(at)gmail.com for collaborations, questions, or just to connect. I’m always happy to hear from you!
 
 You can also find me on [LinkedIn](https://www.linkedin.com/in/myeongjin-shin-a98663264/) and [Google Scholar](https://scholar.google.com/citations?user=9mRACrMAAAAJ&hl=en).
 
@@ -34,11 +38,12 @@ You can also find me on [LinkedIn](https://www.linkedin.com/in/myeongjin-shin-a9
 My main research field focuses on theory of quantum computation. But I'm also interested in quantum simulation and hardware.
 
 Recently, my primary research focus has been on the following topics:
-- **Quantum Learning Theory**: Sample, computational, and time complexity of learning quantum states, unitaries, channels, and processes under various constraints
-- **Quantum Singular Value Transformation**: Finding applications on various topics such as constructing efficient algorithms, estimating properties of quantum systems including quantum entropies and distance measures.
-- **Quantum Benchmarking**: Especially on quantum cross platform benchmarking and measuring the accuracy of magic state injection, cultivation.
+- **Quantum Learning Theory**: Sample, computational, and time complexity of learning quantum states, unitaries, channels, and processes under various constraints. I am currently particularly interested in Hamiltonian learning.
+- **Quantum Algorithm**: Developing applications across various domains using quantum singular value transformation (QSVT). I am also studying and researching decoded quantum interferometry (DQI).
+- **Quantum Property Testing**: Estimating properties of quantum systems, often involving nonlinear quantities. I am especially interested in the optimal estimation of quantum entropies and traces of powers of quantum states.
 
 Other topics that I've worked on:
-- Quantum neural property testing 
+- Variational quantum algorithms  
 - Quantum machine learning and its applications
+- Quantum error correction
 - Gradient clipping methods for large language models
