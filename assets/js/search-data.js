@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Lectured about quantum learning theory, quantum complexity theory, quantum algorithms and quantum sensing.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
