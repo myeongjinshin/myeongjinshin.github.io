@@ -31,21 +31,31 @@ This course covers recent developments in quantum algorithms, with a particular 
     <tr>
       <th style="padding: 10px; border: 1px solid #ccc;">Date</th>
       <th style="padding: 10px; border: 1px solid #ccc;">Topic</th>
-      <th style="padding: 10px; border: 1px solid #ccc;">Speaker</th>
-      <th style="padding: 10px; border: 1px solid #ccc;">Readings</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">Lecture Notes</th>
+      <th style="padding: 10px; border: 1px solid #ccc;">References</th>
     </tr>
   </thead>
   <tbody>
     <tr style="background-color: #f9f9f9;">
       <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/3</span></td>
       <td style="border: 1px solid #ccc;"><span style="color:#000000;">Introduction</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Myeongjin Shin</span></td>
+      <td style="border: 1px solid #ccc;">
+        <span style="color:#000000;">
+            Myeongjin Shin
+        </span>
+      </td>
       <td style="border: 1px solid #ccc;">
         <ul>
           <li><a href="https://arxiv.org/pdf/2511.09124">[BKB'25] The Grand Challenge of Quantum Applications</a></li>
         </ul>
         <ul>
           <li><a href="https://arxiv.org/pdf/2408.08292">[JSW'24] Optimization by Decoded Quantum Interferometry</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://scirate.com/">Scirate: Recent Quantum Papers</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://scottaaronson.blog/?p=9425">Scott Aaronson blog (Check out the Q2B slides)</a></li>
         </ul>
       </td>
     </tr>
@@ -56,6 +66,9 @@ This course covers recent developments in quantum algorithms, with a particular 
       <td style="border: 1px solid #ccc;">
         <ul>
           <li><a href="https://arxiv.org/pdf/2408.08292">[JSW'24] Optimization by Decoded Quantum Interferometry</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://pennylane.ai/qml/demos/tutorial_dqi">DQI pennylane demo</a></li>
         </ul>
       </td>
     </tr>
