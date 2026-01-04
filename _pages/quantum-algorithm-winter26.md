@@ -41,7 +41,10 @@ This course covers recent developments in quantum algorithms, with a particular 
       <td style="border: 1px solid #ccc;"><span style="color:#000000;">Introduction</span></td>
       <td style="border: 1px solid #ccc;">
         <span style="color:#000000;">
-            Myeongjin Shin
+          <ul>
+            <li><a href="https://drive.google.com/file/d/1_BPiqaIUVsRJQ2b0SJ0EeqP9Ym4H_cAk/view?usp=sharing">Lec1</a></li>
+            <li><a href="https://drive.google.com/file/d/13dFXYbsipzt51HUIa63fb_4vW_CyPCg3/view?usp=sharing">Lec2(Prelim)</a></li>
+          </ul>
         </span>
       </td>
       <td style="border: 1px solid #ccc;">
