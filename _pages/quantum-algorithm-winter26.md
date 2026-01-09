@@ -65,7 +65,13 @@ This course covers recent developments in quantum algorithms, with a particular 
     <tr>
       <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/10</span></td>
       <td style="border: 1px solid #ccc;"><span style="color:#000000;">Key concepts of DQI</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Myeongjin Shin </span></td>
+       <td style="border: 1px solid #ccc;">
+        <span style="color:#000000;">
+          <ul>
+            <li><a href="https://drive.google.com/file/d/1KSJIQHU0vCexz4zcbenMia8q68g4zpfW/view?usp=sharing">Lec2</a></li>
+          </ul>
+        </span>
+      </td>
       <td style="border: 1px solid #ccc;">
         <ul>
           <li><a href="https://arxiv.org/pdf/2408.08292">[JSW'24] Optimization by Decoded Quantum Interferometry</a></li>
