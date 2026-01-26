@@ -81,8 +81,46 @@ This course covers recent developments in quantum algorithms, with a particular 
         </ul>
       </td>
     </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/17</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Understanding DQI for MAX-LINSAT</span></td>
+       <td style="border: 1px solid #ccc;">
+        <span style="color:#000000;">
+          <ul>
+            <li><a href="https://drive.google.com/file/d/1hy5RXvsyvN1sVhU8qcH5bs3BCdMDAoIR/view?usp=sharing">Lec3</a></li>
+          </ul>
+        </span>
+      </td>
+      <td style="border: 1px solid #ccc;">
+        <ul>
+          <li><a href="https://arxiv.org/pdf/2408.08292">[JSW'24] Optimization by Decoded Quantum Interferometry</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://pennylane.ai/qml/demos/tutorial_dqi">DQI pennylane demo</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/24</span></td>
+      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Syndrome decoding problem</span></td>
+       <td style="border: 1px solid #ccc;">
+        <span style="color:#000000;">
+          <ul>
+            <li><a href="https://drive.google.com/file/d/1nBFPzqKgoD7T09TxEllArAsXdw-PVtEf/view?usp=sharing">Lec4</a></li>
+          </ul>
+        </span>
+      </td>
+      <td style="border: 1px solid #ccc;">
+        <ul>
+          <li><a href="https://arxiv.org/pdf/2408.08292">[JSW'24] Optimization by Decoded Quantum Interferometry</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://arxiv.org/pdf/2510.10967">[KSG'24] Verifiable Quantum Advantage via Optimized DQI Circuits</a></li>
+        </ul>
+      </td>
+    </tr>
     <tr style="background-color: #f9f9f9; color:black;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/13</span></td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/31</span></td>
       <td style="border: 1px solid #ccc;"><span style="color:#000000;">classical algorithms vs DQI</span></td>
       <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>Mingyu Lee</td>
       <td style="border: 1px solid #ccc;">
@@ -94,34 +132,8 @@ This course covers recent developments in quantum algorithms, with a particular 
         </ul>
       </td>
     </tr>
-    <tr style="background-color: #f9f9f9;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/17</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Verifiable Quantum Advantage and DQI</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Myeongjin Shin </span></td>
-      <td style="border: 1px solid #ccc;">
-        <ul>
-          <li><a href="https://arxiv.org/pdf/2408.08292">[JSW'24] Optimization by Decoded Quantum Interferometry</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://arxiv.org/pdf/2510.10967">[KSG'24] Verifiable Quantum Advantage via Optimized DQI Circuits</a></li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/24</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;">Complexity of DQI</span></td>
-      <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>Myeongjin Shin</td>
-      <td style="border: 1px solid #ccc;">
-        <ul>
-          <li><a href="https://arxiv.org/pdf/2510.10967">[KSG'24] Verifiable Quantum Advantage via Optimized DQI Circuits</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://arxiv.org/pdf/2501.07625">[AMC'25] On the Complexity of Decoded Quantum Interferometry</a></li>
-        </ul>
-      </td>
-    </tr>
     <tr style="background-color: #f9f9f9; color:black;">
-      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">1/31</span></td>
+      <td style="border: 1px solid #ccc; text-align: center;"><span style="color:#000000;">2/7</span></td>
       <td style="border: 1px solid #ccc;"><span style="color:#000000;">The limitations of DQI</span></td>
       <td style="border: 1px solid #ccc;"><span style="color:#000000;"></span>Myeongjin Shin</td>
       <td style="border: 1px solid #ccc;">
