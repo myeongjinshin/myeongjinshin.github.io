@@ -28,7 +28,7 @@ I'm an undergraduate student in the School of Computing at KAIST. My main intere
 
 I have been continuously conducting research with the Quantum Information Theory Group at the Research Institute of Mathematics, Seoul National University, and more recently with the Quantum Information Theory Group in the Department of Physics at KAIST.
 
-I am currently preparing for PhD applications with the goal of applying in the 2027 cycle, while actively developing my research experience in quantum information theory. For more details, please refer to my [CV](https://myeongjinshin.github.io/assets/pdf/myeongjinshin_cv_20260127.pdf).
+I am currently preparing for PhD applications with the goal of applying in the 2027 cycle, while actively developing my research experience in quantum information theory. For more details, please refer to my [CV](https://myeongjinshin.github.io/assets/pdf/myeongjinshin_cv_20260407.pdf).
 
 Contact: I love discussing new research ideas and beyond, so feel free to reach out to me at hanwoolmj2(at)gmail.com for collaborations, questions, or just to connect. I’m always happy to hear from you!
 

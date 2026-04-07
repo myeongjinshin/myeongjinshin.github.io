@@ -72,6 +72,12 @@
       "publisher": "arXiv preprint",
       "releaseDate": "2025-12-10",
       "url": "https://arxiv.org/pdf/2512.09778"
+    },
+    {
+      "name": "Certifying and learning local quantum Hamiltonians",
+      "publisher": "TQC 2026 contributed talk, arXiv preprint",
+      "releaseDate": "2026-03-31",
+      "url": "https://arxiv.org/pdf/2603.29809"
     }
   ],
   "languages": [
