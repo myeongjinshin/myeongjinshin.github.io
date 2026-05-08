@@ -10,13 +10,31 @@
   },
   "work": [
     {
-      "name": "Department of Mathematical Sciences at Seoul National University (SNU)",
-      "position": "Researcher",
+      "name": "Institute of Computer Technology, SNU Team QST",
+      "position": "Undergraduate Researcher",
       "url": "https://sites.google.com/view/team-qst/home",
       "startDate": "2022-02-01",
       "endDate": "Current",
       "summary": "",
-      "highlights": ["Quantum Computing"]
+      "highlights": ["Quantum property testing and estimation", "Quantum algorithms", "Quantum singular value transformation"]
+    },
+    {
+      "name": "KAIST Physics Quantum Information Theory Group",
+      "position": "Undergraduate Researcher",
+      "url": "https://sites.google.com/view/qitkaistphysics/kaist-physics-qit",
+      "startDate": "2025-11-01",
+      "endDate": "Current",
+      "summary": "",
+      "highlights": ["Quantum Hamiltonian learning", "Continuous variable quantum systems"]
+    },
+    {
+      "name": "Caltech SURF program",
+      "position": "Undergraduate Research Fellow",
+      "url": "https://sites.math.duke.edu/~yt222/",
+      "startDate": "2026-05-01",
+      "endDate": "2026-08-28",
+      "summary": "",
+      "highlights": ["Practical quantum Hamiltonian learning", "Open quantum systems"]
     }
   ],
   "teaching": [
@@ -78,6 +96,12 @@
       "publisher": "TQC 2026 contributed talk, arXiv preprint",
       "releaseDate": "2026-03-31",
       "url": "https://arxiv.org/pdf/2603.29809"
+    },
+    {
+      "name": "Heisenberg-limited Hamiltonian learning without short-time control",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026-04-27",
+      "url": "https://arxiv.org/pdf/2604.27838"
     }
   ],
   "languages": [
@@ -107,9 +131,20 @@
   ],
   "references": [
     {
+      "name": "Prof. Yu Tong",
+      "icon": "fa-solid fa-laptop",
+      "link": "https://sites.math.duke.edu/~yt222/",
+      "reference": "Prof. Yu Tong is a professor in Duke. He has been a mentor of the Caltech SURF program. He has been a collaborator on practical quantum algorithms for open quantum systems, especially practical quantum Hamiltonian learning."
+    },
+    {
+      "name": "Prof. Changhun Oh",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Prof. Changhun Oh is a professor in KAIST. He has been a mentor and collaborator on quantum Hamiltonian learning, continuous variable systems."
+    },
+    {
       "name": "Dr. Kabgyun Jeong",
       "icon": "fa-solid fa-laptop",
-      "reference": "Dr. Kabgyun Jeong is a research in SNU, specializing in quantum computing and quantum information theory. He has been a mentor and collaborator on various quantum research projects."
+      "reference": "Dr. Kabgyun Jeong is a research in SNU. He has been a mentor and collaborator on quantum property testing and estimation, quantum algorithms and quantum singular value transformation."
     }
   ]
 }
