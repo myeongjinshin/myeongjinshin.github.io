@@ -32,15 +32,15 @@ quick_links:
 contact_email: hanwoolmj2@gmail.com
 
 signal_cards:
-  - label: Current base
-    value: KAIST
-    note: School of Computing
   - label: Research groups
     value: SNU + KAIST
     note: Quantum Information Theory
   - label: 2026 summer
     value: Caltech SURF
     note: With Yu Tong and John Preskill
+  - label: Next horizon
+    value: 2027 PhD cycle
+    note: Building research depth now
 
 focus_areas:
   - title: Quantum Learning Theory
