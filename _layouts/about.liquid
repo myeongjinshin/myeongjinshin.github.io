@@ -1,80 +1,142 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
+<div class="home-page">
+  <section class="home-hero">
+    <div class="home-hero__content">
+      {% if page.hero.kicker %}
+        <p class="eyebrow">{{ page.hero.kicker }}</p>
       {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+      <h1>{{ page.hero.headline | default: page.subtitle }}</h1>
+      {% if page.hero.summary %}
+        <p class="hero-summary">{{ page.hero.summary }}</p>
+      {% endif %}
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+      {% if page.hero.tags %}
+        <div class="topic-strip" aria-label="Research topics">
+          {% for tag in page.hero.tags %}
+            <span>{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% if page.quick_links %}
+        <div class="hero-actions">
+          {% for link in page.quick_links %}
+            {% if link.url contains '://' or link.url contains 'mailto:' %}
+              {% assign action_url = link.url %}
+            {% else %}
+              {% assign action_url = link.url | relative_url %}
+            {% endif %}
+            <a class="action-link {% if link.style == 'primary' %}action-link--primary{% endif %}" href="{{ action_url }}">
+              {{ link.label }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% assign visible_email = page.contact_email | default: site.data.socials.email %}
+      {% if visible_email %}
+        <div class="hero-contact" aria-label="Email address">
+          <span>Email</span>
+          <a href="mailto:{{ visible_email }}">{{ visible_email }}</a>
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.profile and page.profile.image %}
+      <aside class="home-portrait" aria-label="Profile">
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% include figure.liquid loading="eager" path=profile_image_path class="home-portrait__image" sizes="(min-width: 992px) 340px, 90vw" alt=page.profile.image cache_bust=true %}
+        <div class="home-portrait__caption">
+          <span>Undergraduate researcher</span>
+          <strong>Quantum information theory</strong>
+        </div>
+      </aside>
+    {% endif %}
+  </section>
+
+  {% if page.selected_papers %}
+    <section class="section-block selected-work">
+      <div class="section-heading section-heading--inline">
+        <div>
+          <p class="eyebrow">Selected Work</p>
+          <h2><a href="{{ '/publications/' | relative_url }}">Selected publications</a></h2>
+        </div>
+        <a class="section-link" href="{{ '/publications/' | relative_url }}">View all</a>
       </div>
-    {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
+    </section>
+  {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+  <section class="section-block section-block--narrow">
+    <div class="section-heading">
+      <p class="eyebrow">Background</p>
+      <h2>About</h2>
+    </div>
+    <div class="home-copy">
+      {{ content }}
+    </div>
+  </section>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+  {% if page.signal_cards %}
+    <section class="signal-grid" aria-label="Current profile">
+      {% for item in page.signal_cards %}
+        <article class="signal-card">
+          <span>{{ item.label }}</span>
+          <strong>{{ item.value }}</strong>
+          <p>{{ item.note }}</p>
+        </article>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  {% if page.focus_areas %}
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Research Compass</p>
+        <h2>Questions I keep returning to</h2>
       </div>
-    {% endif %}
+      <div class="focus-grid">
+        {% for area in page.focus_areas %}
+          <article class="focus-card">
+            <span class="focus-card__index">0{{ forloop.index }}</span>
+            <h3>{{ area.title }}</h3>
+            <p>{{ area.text }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-  </article>
+  {% if page.announcements and page.announcements.enabled %}
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Updates</p>
+        <h2><a href="{{ '/news/' | relative_url }}">News</a></h2>
+      </div>
+      {% include news.liquid limit=true %}
+    </section>
+  {% endif %}
+
+  {% if page.latest_posts and page.latest_posts.enabled %}
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">Writing</p>
+        <h2><a href="{{ '/blog/' | relative_url }}">Latest posts</a></h2>
+      </div>
+      {% include latest_posts.liquid %}
+    </section>
+  {% endif %}
+
+  {% if page.social %}
+    <section class="social">
+      <div class="contact-icons">{% include social.liquid %}</div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </section>
+  {% endif %}
+
+  {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+    {% include newsletter.liquid center=true %}
+  {% endif %}
 </div>

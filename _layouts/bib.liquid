@@ -1,5 +1,27 @@
 ---
 ---
+{% assign paper_url = '' %}
+{% if entry.url %}
+  {% assign paper_url = entry.url %}
+{% elsif entry.doi %}
+  {% assign paper_url = entry.doi | prepend: 'https://doi.org/' %}
+{% elsif entry.arxiv %}
+  {% assign paper_url = entry.arxiv | prepend: 'https://arxiv.org/abs/' %}
+{% elsif entry.html %}
+  {% assign paper_url = entry.html %}
+{% elsif entry.pdf %}
+  {% assign paper_url = entry.pdf %}
+{% endif %}
+
+{% if paper_url != '' %}
+  <a
+    class="publication-card-link"
+    href="{{ paper_url }}"
+    target="_blank"
+    rel="external nofollow noopener"
+    aria-label="Open paper: {{ entry.title | strip_html | escape }}"
+  ></a>
+{% endif %}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -148,6 +170,20 @@
       {% endif %}
     </div>
 
+    {% if entry.author_role or entry.author_order or entry.author_note %}
+      <div class="author-meta">
+        {% if entry.author_role %}
+          <span class="author-chip author-chip--role">{{ entry.author_role }}</span>
+        {% endif %}
+        {% if entry.author_order %}
+          <span class="author-chip">{{ entry.author_order }}</span>
+        {% endif %}
+        {% if entry.author_note %}
+          <span class="author-chip author-chip--note">{{ entry.author_note }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
@@ -160,11 +196,23 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% assign entrymonth = '' %}
     {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
+      {% assign entrymonth = entry.month | capitalize %}
     {% endif %}
-    {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
+    {% assign entryyear = '' %}
+    {% unless page.hide_publication_item_year %}
+      {% if entry.year %}
+        {% assign entryyear = entry.year %}
+      {% endif %}
+    {% endunless %}
+    {% assign entrydate = '' %}
+    {% if entrymonth != '' and entryyear != '' %}
+      {% assign entrydate = entrymonth | append: ' ' | append: entryyear %}
+    {% elsif entrymonth != '' %}
+      {% assign entrydate = entrymonth %}
+    {% elsif entryyear != '' %}
+      {% assign entrydate = entryyear %}
     {% endif %}
     {% if entry.location %}
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
@@ -177,7 +225,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entrydate != "" %}, {% endif %}{{ entrydate }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -199,7 +247,7 @@
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>

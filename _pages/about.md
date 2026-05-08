@@ -1,49 +1,77 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: Hello! I’m Myeongjin Shin, also known as Bruce.
+subtitle: Quantum computation, learning theory, and algorithms.
+
+hero:
+  kicker: KAIST School of Computing
+  headline: Quantum information theory and algorithms.
+  summary: I am an undergraduate student at KAIST interested in the theoretical foundations of learning, sensing, and computation with quantum systems. My current work centers on Hamiltonian and Lindbladian learning, quantum algorithms, and quantum property testing, with a broader interest in turning operational questions into rigorous mathematical problems.
+  tags:
+    - Quantum learning theory
+    - Quantum algorithms
+    - Property testing
+    - Hamiltonian learning
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info:
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+quick_links:
+  - label: CV
+    url: /assets/pdf/myeongjinshin_cv_20260407.pdf
+    style: primary
+  - label: Publications
+    url: /publications/
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=9mRACrMAAAAJ&hl=en
+
+contact_email: hanwoolmj2@gmail.com
+
+signal_cards:
+  - label: Current base
+    value: KAIST
+    note: School of Computing
+  - label: Research groups
+    value: SNU + KAIST
+    note: Quantum Information Theory
+  - label: 2026 summer
+    value: Caltech SURF
+    note: With Yu Tong and John Preskill
+
+focus_areas:
+  - title: Quantum Learning Theory
+    text: Sample, computational, and time complexity of learning quantum states, unitaries, channels, and processes under operational constraints.
+  - title: Quantum Algorithms
+    text: Applications and limits of QSVT, decoded quantum interferometry, and related algorithmic primitives.
+  - title: Quantum Property Testing
+    text: Estimating nonlinear quantities of quantum systems, especially entropies and traces of powers of quantum states.
+  - title: Open Quantum Systems
+    text: Practical learning of Hamiltonian and Lindbladian dynamics, with an eye toward rapid mixing, sample efficiency, and algorithms that remain useful beyond idealized closed-system models.
+
+selected_papers: true
+social: false
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-I'm an undergraduate student in the School of Computing at KAIST. My main interests lie in quantum computing research and founding a startup.
+I am an undergraduate researcher in the School of Computing at KAIST. My research is mostly in theoretical quantum information, especially problems where learning theory, algorithms, and property testing meet. Recently I have been thinking about how much information is needed to learn or certify quantum systems, and how the structure of a Hamiltonian or a quantum process changes what is computationally possible.
 
-I have been continuously conducting research with the Quantum Information Theory Group at the Research Institute of Mathematics, Seoul National University, and more recently with the Quantum Information Theory Group in the Department of Physics at KAIST.
+I have worked with the Quantum Information Theory Group at the Research Institute of Mathematics, Seoul National University, and more recently with the Quantum Information Theory Group in the Department of Physics at KAIST. These collaborations shaped much of my current taste: I like problems that start from a concrete quantum information task, but require careful algorithmic or complexity-theoretic reasoning to understand properly.
 
-I am currently preparing for PhD applications with the goal of applying in the 2027 cycle, while actively developing my research experience in quantum information theory. For more details, please refer to my [CV](https://myeongjinshin.github.io/assets/pdf/myeongjinshin_cv_20260407.pdf).
+In 2026, I was accepted to the Caltech SURF program, where I am working on practical learning problems for open quantum systems under the guidance of Yu Tong and John Preskill. This project connects my interests in Hamiltonian/Lindbladian learning, rapid mixing, and algorithms that remain meaningful under physically realistic dynamics.
 
-Contact: I love discussing new research ideas and beyond, so feel free to reach out to me at hanwoolmj2(at)gmail.com for collaborations, questions, or just to connect. I’m always happy to hear from you!
+Beyond my current focus on Hamiltonian learning, quantum algorithms, and quantum property testing, I have also worked on quantum entropy estimation, variational quantum algorithms, quantum machine learning and its applications, quantum error correction, and gradient clipping methods for large language models.
 
-You can also find me on [LinkedIn](https://www.linkedin.com/in/myeongjin-shin-a98663264/) and [Google Scholar](https://scholar.google.com/citations?user=9mRACrMAAAAJ&hl=en).
-
-## Research
-My main research field focuses on theory of quantum computation. But I'm also interested in quantum simulation and hardware.
-
-Recently, my primary research focus has been on the following topics:
-- **Quantum Learning Theory**: Sample, computational, and time complexity of learning quantum states, unitaries, channels, and processes under various constraints. I am currently particularly interested in Hamiltonian learning.
-- **Quantum Algorithm**: Developing applications across various domains using quantum singular value transformation (QSVT). I am also studying and researching decoded quantum interferometry (DQI).
-- **Quantum Property Testing**: Estimating properties of quantum systems, often involving nonlinear quantities. I am especially interested in the optimal estimation of quantum entropies and traces of powers of quantum states.
-
-Other topics that I've worked on:
-- Variational quantum algorithms  
-- Quantum machine learning and its applications
-- Quantum error correction
-- Gradient clipping methods for large language models
+I enjoy conversations that turn half-formed research questions into concrete problems. If you want to discuss quantum learning, algorithms, sensing, or early-stage startup ideas, feel free to reach out.

@@ -16,7 +16,14 @@
             {% for item in content.items %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
+            {% assign reference_url = content.url | default: content.link %}
+            <td colspan="{{ i }}" class="list-group-category">
+              {% if reference_url %}
+                <a href="{{ reference_url }}" target="_blank" rel="external nofollow noopener">{{ content.name }}</a>
+              {% else %}
+                {{ content.name }}
+              {% endif %}
+            </td>
           </tr>
           <tr>
             <td></td>

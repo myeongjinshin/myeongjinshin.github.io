@@ -1,16 +1,20 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
+description: Recent papers, preprints, and selected work in quantum information theory.
 nav: true
 nav_order: 2
+hide_publication_item_year: true
 ---
 
-<!-- _pages/publications.md -->
+<p class="lead">
+  A working list of papers and preprints. Each item notes my author position and the author-order convention when it is specified.
+</p>
 
-<!-- Bibsearch Feature -->
-
-[Google Scholar](https://scholar.google.com/citations?user=9mRACrMAAAAJ&hl=en) provides a full list under chronological/citations order
+<p>
+  <a class="action-link action-link--primary" href="https://scholar.google.com/citations?user=9mRACrMAAAAJ&hl=en">Open Google Scholar</a>
+</p>
 
 <div class="publications">
 
