@@ -6,32 +6,41 @@
     - name: Affiliation
       value: School of Computing, KAIST
     - name: Email
-      value: hanwoolmj2(at)gmail.com
+      value: hanwoolmj(at)kaist.ac.kr
     - name: Research Focus
-      value: Quantum learning theory, quantum algorithms, quantum property testing
+      value: Quantum learning theory, Hamiltonian learning, quantum algorithms, quantum property testing
 
 - title: Education
   type: time_table
   contents:
-    - title: Undergraduate Student
+    - title: B.S. in Computing Science
       institution: KAIST School of Computing
-      year: Present
+      year: 2021 - 2027
       description:
-        - Working toward PhD applications in the 2027 cycle.
+        - Double major in Mathematical Sciences; GPA 4.0 / 4.3.
+        - Enrollment period includes a two-year academic leave for mandatory military service.
+    - title: Computer Science
+      institution: Gyeonggi Science High School for the Gifted
+      year: 2018 - 2021
 
 - title: Research Experience
   type: time_table
   contents:
+    - title: Undergraduate Research Fellow
+      institution: Caltech SURF Program
+      year: 2026 - Present
+      description:
+        - Researching Hamiltonian learning with single-qubit control under Yu Tong and John Preskill.
     - title: Quantum Information Theory Group
       institution: Department of Physics, KAIST
-      year: Recent
+      year: 2025 - Present
       description:
-        - Research in quantum information theory, with emphasis on learning and algorithms.
-    - title: Quantum Information Theory Group
+        - Research on Hamiltonian learning, bosonic systems, and fermionic systems.
+    - title: Undergraduate Research Assistant
       institution: Research Institute of Mathematics, Seoul National University
-      year: Ongoing
+      year: 2022 - Present
       description:
-        - Research in theoretical quantum information.
+        - Research on quantum entropies, variational quantum algorithms, quantum property testing, and quantum singular value transformation.
 
 - title: Teaching
   type: time_table
@@ -58,6 +67,7 @@
     - title: Quantum Learning Theory
       items:
         - Hamiltonian learning
+        - Certifying and learning Hamiltonians in the Heisenberg limit
         - Learning states, unitaries, channels, and processes
     - title: Quantum Algorithms
       items:

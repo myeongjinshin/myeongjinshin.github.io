@@ -11,7 +11,7 @@ This course covers recent developments in quantum algorithms, with a particular 
 **Prerequisites:** Participants are expected to have a solid background in theoretical computer science and quantum information, with a strong understanding of Shor’s algorithm and Grover’s algorithm.
 
 ### Instructor
-- [Myeongjin Shin](https://myeongjinshin.github.io/) (`hanwoolmj2(at)gmail.com`)
+- [Myeongjin Shin](https://myeongjinshin.github.io/) (`hanwoolmj(at)kaist.ac.kr`)
 
 #### Assistant Instructor
 - [Mingyu Lee](https://scholar.google.com/citations?user=ok3lJjEAAAAJ&hl=en) (`minkyu.lee65(at)gmail.com`)

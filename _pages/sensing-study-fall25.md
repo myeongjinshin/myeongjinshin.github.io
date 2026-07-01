@@ -11,7 +11,7 @@ This reading group is dedicated to exploring both foundational and recent resear
 **Prerequisites:** Participants are expected to have a solid background in theoretical computer science and quantum information.
 
 #### Instructor
-- [Myeongjin Shin](https://myeongjinshin.github.io/) (`hanwoolmj2(at)gmail.com`)
+- [Myeongjin Shin](https://myeongjinshin.github.io/) (`hanwoolmj(at)kaist.ac.kr`)
 
 #### Course Policies
 - The reading group will be conducted primarily via Zoom. In-person sessions may be organized when necessary.

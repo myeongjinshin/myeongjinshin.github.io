@@ -48,10 +48,6 @@ layout: default
       <aside class="home-portrait" aria-label="Profile">
         {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
         {% include figure.liquid loading="eager" path=profile_image_path class="home-portrait__image" sizes="(min-width: 992px) 340px, 90vw" alt=page.profile.image cache_bust=true %}
-        <div class="home-portrait__caption">
-          <span>Undergraduate researcher</span>
-          <strong>Quantum information theory</strong>
-        </div>
       </aside>
     {% endif %}
   </section>
