@@ -22,7 +22,7 @@ profile:
 
 quick_links:
   - label: CV
-    url: /assets/pdf/cv_myeongjinshin_20260701.pdf
+    url: /assets/pdf/cv_myeongjinshin_20260918.pdf
     style: primary
   - label: Publications
     url: /publications/
@@ -73,7 +73,7 @@ My research background includes work with the Research Institute of Mathematics 
 
 In 2026, I was accepted to the Caltech SURF program, where I am working with Yu Tong and John Preskill on Hamiltonian learning with static single-qubit fields, gates, and measurements. This project connects my interests in certifying and learning Hamiltonians in the Heisenberg limit with algorithms that remain meaningful under realistic control constraints.
 
-My recent work, "Heisenberg-limited Hamiltonian learning without short-time control," was accepted as a long talk at AQIS 2026.
+My recent work: ["Heisenberg-limited Hamiltonian learning without short-time control"](https://journals.aps.org/prxquantum/accepted/10.1103/kjvf-jgqj) — PRX Quantum (Accepted); AQIS 2026 long talk.
 
 Beyond my current focus on Hamiltonian learning, quantum algorithms, and quantum property testing, I have also worked on quantum entropy estimation, variational quantum algorithms, quantum machine learning and its applications, quantum error correction, and gradient clipping methods for large language models.
 
