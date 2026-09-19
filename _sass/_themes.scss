@@ -11,6 +11,7 @@
   --global-text-color: #191919;
   --global-text-color-light: #6f6b63;
   --global-theme-color: #243653;
+  --publication-venue-color: #1b3f8b;
   --global-hover-color: #6b4f2f;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #1c1f24;
@@ -86,6 +87,7 @@ html[data-theme="dark"] {
   --global-text-color: #eceae4;
   --global-text-color-light: #aaa69e;
   --global-theme-color: #9fb2d2;
+  --publication-venue-color: #afc6f7;
   --global-hover-color: #d1b083;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #0f1012;
