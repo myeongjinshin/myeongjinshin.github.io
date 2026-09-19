@@ -235,7 +235,9 @@
       {{ periodical | strip }}
     </div>
     {% if entry.conference %}
-      <div class="periodical"><span class="publication-venue">{{ entry.conference }}</span></div>
+      <div class="periodical">
+        <span class="publication-venue">{{ entry.conference }}</span>
+      </div>
     {% endif %}
     {% if entry.note %}
       <div class="periodical">{{ entry.note | strip }}</div>
@@ -418,7 +420,7 @@
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
+      {% endhighlight %}
       </div>
     {% endif %}
 
