@@ -22,7 +22,7 @@ profile:
 
 quick_links:
   - label: CV
-    url: /assets/pdf/cv_myeongjinshin_20260918.pdf
+    url: /assets/pdf/cv_myeongjinshin_20260924.pdf
     style: primary
   - label: Publications
     url: /publications/
